@@ -1,0 +1,76 @@
+/* Global styles */
+html {
+  box-sizing: border-box;
+}
+
+  /* Profile  */
+header {
+  color: #F7FFF7;
+  text-align: center;
+  height: auto;
+}
+
+
+body {
+  color: #F7FFF7;
+  background: #2F3061;
+  margin: auto;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+
+}
+
+h1 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin: 0;
+  }
+
+h2 {
+    line-height: 1;
+    font-size: 35px;
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin: 0;
+  }
+
+.about-text {
+  font-family: cursive;
+}
+
+.content-wrap {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px, 0;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+/* Work Experience */
+.work-experience {
+  color: #F7FFF7;
+  background: #2F3061;
+  font-family: 'Times New Roman', Times, serif
+}
+
+/* Contact Information */
+footer {
+  background: rgb(214, 176, 7);
+  color: #F7FFF7;
+  text-align: center
+}
+
+.contact-list {
+  list-style-type: initial;
+}
+
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+  color: rgb(61, 2, 62);
+}
