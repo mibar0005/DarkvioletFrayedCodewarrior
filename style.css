@@ -79,17 +79,17 @@ footer {
 
 
 .navigation {
-  border-width: 2px;
-  border-style: solid;
   padding: 5px;
 }
 
 .navigation a {
-  color: white;
+  color: yellow;
+  text-decoration: none;
+  
 }
 
 #projects a {
-  color: yellow;
+  color: rgb(5, 222, 9);
 }
 
 .projects{
