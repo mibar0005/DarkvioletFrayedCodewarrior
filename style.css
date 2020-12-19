@@ -4,7 +4,7 @@ html {
 }
 
   /* Profile  */
-header {
+header, body {
   color: #F7FFF7;
   text-align: center;
   height: auto;
@@ -15,9 +15,10 @@ body {
   color: #F7FFF7;
   background: #2F3061;
   margin: auto;
-  padding: 0;
+  padding: 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
+  line-height: 1.5;
 
 }
 
@@ -35,6 +36,8 @@ h2 {
     font-family: 'Caveat', cursive;
     font-weight: 400;
     margin: 0;
+    padding: 10px;
+    margin-bottom: 5px;
   }
 
 .about-text {
@@ -47,6 +50,7 @@ h2 {
   padding: 60px, 0;
 }
 
+
 h3 {
   margin-bottom: 0;
 }
@@ -55,22 +59,39 @@ h3 {
 .work-experience {
   color: #F7FFF7;
   background: #2F3061;
-  font-family: 'Times New Roman', Times, serif
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
 }
 
 /* Contact Information */
 footer {
-  background: rgb(214, 176, 7);
   color: #F7FFF7;
   text-align: center
 }
 
-.contact-list {
-  list-style-type: initial;
-}
+
 
 .contact-list a {
-  padding: 15px;
+  padding: 5px;
   display: inline-block;
-  color: rgb(61, 2, 62);
+  color: tomato;
+}
+
+
+.navigation {
+  border-width: 2px;
+  border-style: solid;
+  padding: 5px;
+}
+
+.navigation a {
+  color: white;
+}
+
+#projects a {
+  color: yellow;
+}
+
+.projects{
+  padding: 5px;
 }

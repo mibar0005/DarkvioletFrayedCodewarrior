@@ -12,18 +12,28 @@
       <!-- Profile -->
       <header>
         <div class="content-wrap">
-          <h1>Miguel Ibarra</h1>
-          <h2>Software Engineer</h2>   
-          <br />    
-          <img src="images/Codepic.jpg" alt="Picture of Code" width="400px">
-            <p> I am software developer based in Riverside, California </p>
-            <br />
-            <p> As a programmer I am interested in </p>
-            <ol>
-              <li> Creating Rails applications from scratch </li>
-              <li> Staying up to date with current versions of HTML, CSS, JavaScript and Ruby </li>
-              <li> Network with other developers and exchange new ideas </li> 
-            </ol>
+            <div id="home">
+            <h1>Miguel Ibarra</h1>
+            <h2>Software Engineer</h2>
+              <div class="navigation">
+              <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#work-experience">Work Experience</a>
+                <a href="#projects">Projects </a>
+                <a href="#contact">Contact</a>
+              </nav>   
+            </div>
+            <br />    
+            <img src="images/Codepic.jpg" alt="Picture of Code" width="400px">
+              <p> I am software developer based in Riverside, California </p>
+              <p> As a programmer I am interested in </p>
+              <ul>
+                <li> Creating Rails applications from scratch </li>
+                <li> Staying up to date with current versions of HTML, CSS, JavaScript and Ruby </li>
+                <li> Network with other developers and exchange new ideas </li> 
+              </ul>
+            </div>
         </div>
       </header>
 
@@ -31,28 +41,43 @@
 
       <!-- About me  -->
       <section>
-        <h2>About me </h2>
-          <p> I first became interested in programming when I took an HTML course as an elective in college. Since then I have been really interested in full stack web development. I am currently working as a seasonal program developer at Amazon. </p>
-          <p> The reason why I decided to join Thinkful is because I would like to get a deeper understanding and practice on creating programs in different languages and improve my programming skills </p>
-          <p> Outside of programming, I enjoy traveling to National Parks, hiking, camping, snowboarding and playing raquetball. I also enjoy volunteering at my local animal shelter.  </p>
+        <div id="about">
+          <h2>About me </h2>
+            <p> I first became interested in programming when I took an HTML course as an elective in college. Since then I have been really interested in full stack web development. I am currently working as a seasonal program developer at Amazon. </p>
+            <p> The reason why I decided to join Thinkful is because I would like to get a deeper understanding and practice on creating programs in different languages and improve my programming skills </p>
+            <p> Outside of programming, I enjoy traveling to National Parks, hiking, camping, snowboarding and playing raquetball. I also enjoy volunteering at my local animal shelter.  </p>
+        </div>
       </section>
 
       <hr>
 
       <!-- Work Experience -->
-      <section class="work-experience">
+      <section id="work-experience">
           <h2>Work Experience</h2>
          
           <!-- Job -->
           <section>  
             <h3>Seasonal Program Developer</h3>
-              <p>Amazon</p>
+              <h4>Amazon</h4>
               <p>August 2020 - present</p>
               <p> Creating Ruby on Rails applications using HTML slim, CSS, JavaScript, Ruby, and MySQL.</p>
           </section>
 
           <hr>
 
+      <section>
+        <h2> Projects </h3>
+          <div id="projects">
+            <ul>
+              <li><a href="https://github.com/mibar0005/Encrypto" target="_blank">Encrypto</a></li>
+              <li><a href="https://github.com/mibar0005/Data-Structure-Inventory-Bins" target="_blank">Bin Inventory</a></li>
+              <li><a href="https://github.com/mibar0005/Rock-Paper-Scissors-" target="_blank">Rock Paper Scissors</a></li>
+            </ul>
+          </div>
+      </section>
+
+      <hr/>
+      
       <!--Contact Information-->
       <footer>
           <h2>Let's Keep in Touch!</h2>
@@ -60,10 +85,12 @@
 
           <!-- email and social media -->
           <div class="content-wrap">
-          <ul class="contact-list">
+          <div id="contact">
+          <ol class="contact-list">
             <li><a href="https://github.com/mibar0005" target="_blank">GitHub</a></li>
             <li><a href="https://www.linkedin.com/in/miguel-ibarra-1a0bb0161/" target="_blank">LinkedIn</a></li>
-          </ul>
+          </ol>
+          </div>
           </div>
       </footer>
     </main>
