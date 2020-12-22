@@ -96,12 +96,12 @@ img {
 
  /* unvisited link */
 a:link {
-  color: rgb(113, 113, 5);
+  color: darkorange;
 }
 
 /* visited link */
 a:visited {
-  color: #00FF00;
+  color: rgb(255, 0, 106);
 }
 
 /* mouse over link */
