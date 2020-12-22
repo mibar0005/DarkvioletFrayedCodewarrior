@@ -73,18 +73,19 @@ footer {
 
 .contact-list a {
   padding: 5px;
-  display: inline-block;
+  display: inline-block;  
 }
 
 
 .navigation {
   padding: 5px;
 }
-
+ 
 .navigation a {
   text-decoration: none;
-  
 }
+
+
 
 .projects{
   padding: 5px;
@@ -94,14 +95,9 @@ img {
   width: 400px;
 }
 
- /* unvisited link */
-a:link {
-  color: darkorange;
-}
-
 /* visited link */
 a:visited {
-  color: rgb(255, 0, 106);
+  color: rgb(94, 255, 0);
 }
 
 /* mouse over link */
